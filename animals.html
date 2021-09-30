@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Animals Assignment</title>
-  <h1>Animals by Karunakar Nampally</h1>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -15,6 +14,29 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light" style="color:purple; background-color: seashell;">
+    <div class="container-fluid">
+        <a class="navbar-brand"href="animal.html">Interesting Animals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="animals.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="plain.html">Plain</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="train.html">Train</a>
+          </li>
+          </ul>
+          </div>
+          </div>
+          </nav>
+  <h1>Animals by Karunakar Nampally</h1>
+
   <div class="container">
     <div class="row" ><p>Nigerian Goat</p></div>
     <div class="row" ><p>Antelope</p></div>
@@ -40,6 +62,154 @@
     <div class=" col-md" ><p>Lion</p></div>
   </div>
   <p>While using col-mid the animals rows break first when its adjust to medium screen resolution</p>
+  <div class="container">
+    <img src="Nigerian Goat.jpg" class="img-fluid" alt="Nigerian Goat" width="300" height="400">
+    <img src="Antelope.jpg" class="img-fluid" alt="Antelope" width="300" height="400">
+    <img src="monkey.jpg" class="img-fluid" alt="monkey" width="300" height="400">
+</div>
+<div class="container">
+  <img src="Panther.jpg" class="img-fluid" alt="Panther" width="300" height="400">
+  <img src="aligator.jpg" class="img-fluid" alt="aligator" width="300" height="400">
+  <img src="lion.jpg" class="img-fluid" alt="aligator" width="300" height="400">
+</div>
+<br/>
+<br/>
+<caption style="font-weight: bold; font-size: 20px;">&nbsp; <b>Animals Table</b></caption>
+    <br/>
+    <br/>
+    <table class="table table-bordered table-hover table-sm table-striped" style="width: 100%;">
+      <thread style="text-align: left; border: 2px; font-size: 20px;" class="table_head">
+          <tr style="border: 2px; text-align: center; background-color: red; color: white;">
+            <th scope="col">Letter</th>
+            <th scope="col">Animal</th>
+            <th scope="col">City</th>
+            <th scope="col">Car</th>
+          </tr>  
+      </thread>
+      <tbody style="text-align: center; border: 2px; width: 60%;" class="table_body">
+        <tr style="border: 2px; text-align: center;" class="table-primary">
+            <th scope="row" style="text-align: center; color:darkblue">N</th>
+            <td>Nigerian Goat</td>
+            <td>Newyork</td>
+            <td>KTM</td>
+        </tr>
+        <tr class="table-secondary" style="border: 2px; color:darkblue">
+            <th scope="row" style="text-align: center;">A</th>
+            <td>Antelope</td>
+            <td>Tokyo</td>
+            <td>Honda</td>
+          </tr>
+          <tr class="table-success" style="border: 2px;color:darkblue">
+            <th scope="row" style="text-align: center;">M</th>
+            <td>Monkey</td>
+            <td>Hyderabad</td>
+            <td>Kia</td>
+          </tr>
+          <tr class="table-warning" style="border: 2px;color:darkblue">
+            <th scope="row" style="text-align: center;">P</th>
+            <td>Panther</td>
+            <td>Russia</td>
+            <td>BMW</td>
+          </tr>
+          <tr class="table-info" style="border: 2px;color:darkblue">
+            <th scope="row" style="text-align: center;">A</th>
+            <td>aligator</td>
+            <td>Italy</td>
+            <td>ferrari</td>
+          </tr>
+          <tr class="table-danger " style="border: 2px;color:darkblue">
+            <th scope="row" style="text-align: center;">L</th>
+            <td>lion</td>
+            <td>france</td>
+            <td>suziki</td>
+          </tr>
+      </tbody>
+    </table>
+    <br/>
+    <span class="label_success" style="font-size: 1rem; color:black; background-color: darkolivegreen; padding:10px; font-family: Arial, Helvetica, sans-serif;">Buttons & Button group</span>
+    <br>
+    <br>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>
+      <div class="btn-group" role="group" aria-label="success group">
+        <button type="button" class="btn btn-success">N</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">M</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="warning group">
+        <button type="button" class="btn btn-warning">P</button>
+        <button type="button" class="btn btn-warning">A</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="danger group">
+        <button type="button" class="btn btn-danger">L</button>
+      </div>
+    </div>
+    <br/>
+    <br/>
+
+    <div class="dropdown">
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <li><a class="dropdown-item" href="plain.html">Plain Page</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="train.html">Train Page</a></li>
+        </ul>
+    </div>
+  </div>
+  <br/>
+  <br/>
+
+  <form style="padding-left: 20px;">
+    <div class="form-group">
+      <label for="InputEmail1" class="form-label">&nbsp;Email address</label>
+      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">&nbsp;We'll never share your email with anyone else.</div>
+    </div>
+    <br/>
+    <div class="form-group">
+      <label for="Animal-label-name" class="form-label">&nbsp;Animal</label>
+      <input type="text" id="animalName" class="form-control" placeholder="Enter your animal">
+    </div>
+    <br/>
+    <div class="form-check">
+        <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      </div>
+      <br/>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <br>
+    <div class="container row" style="padding-left: 50px;">
+        <div class="card" style="width: 18rem; border: 2px solid;">
+          <img src="Nigerian Goat.jpg" class="card-img-top" alt="Nigerian Goat">
+          <div class="card-body">
+            <h5 class="card-title">Nigerian Goat</h5>
+            <p class="card-text">The Nigerian dwarf is a miniature goat from West Africa. 
+              It has been domesticated as a dairy goat and can be found throughout the world. Goats are herbivores.</p>
+              <a href="https://www.oregonzoo.org/discover/animals/nigerian-dwarf-goat"class="btn btn-primary">About Nigerian goat</a>
+          </div>
+        </div>
+        <div class="Antelope" style="width: 18rem; border: 2px solid;">
+          <img src="Antelope.jpg" class="card-img-top" alt="Antelope">
+          <div class="card-body">
+            <h5 class="card-title">Antelope</h5>
+            <p class="card-text">Between about 1930 and 1960 a variety of small goats of the West African Dwarf group of breeds were imported from Africa to the United States to be exhibited in zoos. 
+              The "true antelope" are the gazelle, Nanger, Eudorcas and Antilope.qualities.A herd-book was established in 1980.</p>
+              <a href="https://en.wikipedia.org/wiki/Antelope"class="btn btn-primary">About Antelope</a>
+              </div>
+              </div>
+              <div class="card" style="width: 18rem; border: 2px solid;">
+                <img src="monkey.jpg" class="card-img-top" alt="monkey">
+                <div class="card-body">
+                  <h5 class="card-title">monkey</h5>
+                  <p class="card-text">Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. 
+                    Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, a grouping known as paraphyletic.</p>
+                    <a href="https://en.wikipedia.org/wiki/Monkey"class="btn btn-primary">About monkey</a>
+              </div>
+              </div>
 
 </body>
 </html>
